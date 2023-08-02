@@ -11,26 +11,34 @@
     text-decoration: none;
 }
 
+body
+{
+    background: linear-gradient(180deg, #1694B5 0%, #7A2842 97.40%);
+    overflow: hidden;
+}
+
 section
 {
     padding: 50px 100px;
 }
 
-img
+.gatito
 {
     position: relative;
+    left: 46%;
+    font-size: 10px;
+}
+
+.Gato
+{
+    position: relative;
+    top: -90px;
     left: 5rem;
     width: 80%;
 }
 
 .home
 {
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(180deg, #1694B5 0%, #7A2842 97.40%);
-    background-repeat: no-repeat;
-    background: cover;
-    background-position: left top;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(17rem,auto));
     align-items: center;
@@ -41,7 +49,7 @@ img
 {
     position: relative;
     left: 200px;
-    top: -100px;
+    top: -190px;
     font-size: 3.4rem;
     color: white;
     text-transform: uppercase;
@@ -53,18 +61,25 @@ img
     color: white;
     position: relative;
     left: 100px;
-    top: -70px;
+    top: -140px;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
+h2
+{
+    color: white;
+    text-align: center;
+    margin-top: -50px;
+}
+
 /* CSS */
 .button-89 {
 position: relative;
 left: 150px;
-top: -40px;
+top: -100px;
 --b: 3px;   /* border thickness */
 --s: .45em; /* size of the corner */
 --color: white;
